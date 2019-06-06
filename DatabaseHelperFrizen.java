@@ -9,7 +9,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
     public static final String DB_NAME="NotePad.db";
     public static final int VERSION=1;
     public static final String TABLE_NAME="Diary";
-    //Ω®±Ì”Ôæ‰
+    //create table
     public static final String CREATE_DIARY="create table Diary(" +
             "id integer primary key autoincrement," +
             "time text," + "title text," +
